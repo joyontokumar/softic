@@ -1,0 +1,23 @@
+/*==============================================
+    import theme base css
+================================================*/
+@import "base/variables";
+@import "base/base";
+/*===============================================
+import layout css
+=================================================*/
+@import "./layout/header/header";
+@import "./layout/footer/footer";
+/*================================================
+import components
+=================================================*/
+@import "./components/loader/loader";
+@import "./components/posts/posts";
+@import "./components/photos/photos";
+@import "./components/posts/single";
+@import "./components/contact/contact";
+@import "./components/modal/removeModal";
+/*================================================
+    import responsive
+=================================================*/
+@import "./theme/responsive";

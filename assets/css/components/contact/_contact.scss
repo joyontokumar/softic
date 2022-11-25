@@ -1,0 +1,35 @@
+.contact-area {
+  .contact-form {
+    .contact-form-heading-wrapper {
+      span {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: #000;
+      }
+      h4 {
+        font-size: 17px;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-top: 10px;
+      }
+    }
+    .contact-form-content {
+      margin-top: 20px;
+      .ant-form-item {
+        margin-bottom: 50px;
+      }
+
+      input {
+        width: 100%;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #3a3a3a;
+        height: 40px;
+        border: none;
+        padding: 0 10px;
+      }
+    }
+  }
+}

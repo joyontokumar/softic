@@ -1,0 +1,50 @@
+.header-area {
+  box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 20%);
+  .menu-area {
+    .inner-menu-content {
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 15px;
+          line-height: 70px;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            display: inline-block;
+            color: #000;
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 2px;
+            transition: all 0.3s linear;
+            &:hover {
+              color: #50ccef;
+            }
+          }
+        }
+      }
+    }
+  }
+  .social-action-area {
+    .inner-social-action-content {
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 15px;
+          line-height: 70px;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            display: inline-block;
+            color: #000;
+            transition: all 0.3s linear;
+            &:hover {
+              color: #50ccef;
+            }
+          }
+        }
+      }
+    }
+  }
+}

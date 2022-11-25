@@ -1,0 +1,19 @@
+.remove-modal {
+  .remove-modal-wrapper {
+    .remove-modal-inner-content {
+      margin: 30px;
+      text-align: center;
+      span {
+        font-size: 40px;
+        color: red;
+        font-weight: 700;
+        margin-bottom: 13px;
+      }
+      h3 {
+        font-size: 19px;
+        line-height: 27px;
+        color: #3a3a3a;
+      }
+    }
+  }
+}

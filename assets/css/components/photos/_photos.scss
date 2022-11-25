@@ -1,0 +1,34 @@
+.sinle-photo-gallery {
+  overflow: hidden;
+  &:hover {
+    .photo {
+      .gallery-content {
+        opacity: 1;
+        visibility: visible;
+        top: 47%;
+      }
+    }
+  }
+  .photo {
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+    .gallery-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 60%;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s linear;
+      h5 {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+}
